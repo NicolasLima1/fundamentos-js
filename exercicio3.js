@@ -1,4 +1,4 @@
-/** const horasTrabalhadas = 0
+const horasTrabalhadas = 0
 const recebeHora = 0.0
 
 function calcularSalario(horasTrabalhadas, recebeHora) {
