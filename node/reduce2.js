@@ -5,11 +5,19 @@ const alunos = [
     {nome: 'Ana', nota: 8.7, bolsista: true}
 ]
 
-const todosAlunos = (resultado, bolsista) => resultado && bolsista
+console.log(alunos.map(a => a.bolsista).reduce(
+    (resultado, bolsista) => resultado && bolsista
+))
 
-console.log(alunos.map(a => a.bolsista).reduce(todosAlunos))
+console.log(alunos.map(a => a.bolsista).reduce(
+    (resultado, bolsista) => resultado || bolsista
+))
 
+const numero = [1, 2, 3]
 
-const algumBolsista = (resultado, bolsista) => resultado || bolsista
+const numero2 = numero.map((n) => {
 
-console.log(alunos.map(a => a.bolsista).reduce(algumBolsista))
+    return 2 * n
+})
+
+console.log(numero2)
