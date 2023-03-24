@@ -1,9 +1,4 @@
-let user = ""
+const cumprimentar = (nome) => { return console.log("Olá, " + nome + "!") }
 
-function cumprimentar(user) {
-    return "Olá, " + user + "!"
-}
+cumprimentar("Nicolas")
 
-
-console.log(cumprimentar("Raphael"))
-console.log(cumprimentar("Nicolas"))

@@ -1,14 +1,13 @@
 
 function calcular(base, expoente) {
-    
-    let resultado = Math.pow(base, expoente)
-    console.log("Sua base é: " + base, "Seu expoente é: " + expoente)
 
-    return resultado
-    
+    let resultado = Math.pow(base, expoente)
+    console.log("Base é: " + base, "Expoente é: " + expoente)
+
+    return console.log(`Seu resultado é: ${resultado}`)
+
 }
 
-console.log(calcular(2, 3))
-
+calcular(2, 3)
 
 
