@@ -24,4 +24,4 @@ const exec = (ctx, ...middlewares) => {
 const ctx = {}
 exec(ctx, passo1, passo2, passo3)
 
-console.log(ctx)
+console.log(ctx) // { valor1: 'mid1', valor2: 'mid2', valor3: 'mid3' }
