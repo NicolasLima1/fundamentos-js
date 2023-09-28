@@ -32,6 +32,7 @@ let obterAlunos = async () => {
     return [].concat(turmaA, turmaB, turmaC);
 };
 
+
 obterAlunos()
 .then(alunos => alunos.map(a => a.nome))
 .then(nomes => console.log(nomes));
